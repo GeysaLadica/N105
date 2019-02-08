@@ -7,11 +7,11 @@ body{
                          'nav nav nav nav'
                          'section section aside aside'
                          'footer footer footer footer';
-    grid-template-rows: 200px 50px 700px 100px;
+    grid-template-rows: 200px 50px 500px 100px;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
 }
 header{
     grid-area: header;
-    width: ;
     background-color:white;
     display: flex;
     align-items: center;
@@ -29,21 +29,29 @@ nav{
 }
 section{
     grid-area: section;
-    width: ;
     background-color:blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+section img{
+    width: 400px;
+    height: auto;
+}
+section p{
+    color: white;
+    font-size: 14pt;
 }
 aside{
     grid-area: aside;
-    width: ;
     background-color:darksalmon;
 }
 footer{
     grid-area: footer;
-    width: ;
     background-color:grey;
 }
-
-
 
 
 
